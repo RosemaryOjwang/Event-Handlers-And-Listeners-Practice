@@ -1,6 +1,6 @@
 //a function to display greetings
 function displayGreetings() {
-  alert("Jambo!");
+  alert("Jambo! Welcome to the world of coding");
 }
 
 //a function to perform multiplication
