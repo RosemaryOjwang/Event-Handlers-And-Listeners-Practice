@@ -2,15 +2,11 @@
 <html lang="en-US">
   <head>
     <title>Event Handlers and Listeners Practice</title>
+    <script src="js/scripts.js"></script>
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
     </head>
     <body>
       <h1>Event Listeners and Event Handlers</h1>
-      <script type="text/javascript">
-        function displayGreetings() {
-          alert("Jambo Africa");
-        }
-        window.onload = displayGreetings();
-      </script>
       <table border=3>
         <tr>
           <td>
@@ -27,17 +23,13 @@
           </th>
           <td>
             <button id="result" onclick="multiply()">click here for the result</button>
+          </td>          
+        </tr>
+        <tr>
+          <td colspan="5">
+            <button id="currentDate">Current Date</button>
+            <p id="here"></p>
           </td>
-          <script type="text/javascript">
-            function multiply() {
-              let product = 5 * 66;
-              document.getElementById("result").innerText= product;
-            }
-              
-            //button.onclick = function() {
-              //document.getElementById("result").innerText = multiply();
-           // }
-          </script>
         </tr>
       </table>
     </body>
